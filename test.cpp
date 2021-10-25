@@ -41,6 +41,7 @@ int main (void) {
     return 0;
 }
 
+
 //& Procedure afficher tableau
 void afficherTableau(const int NOMBRE_CASES, char tab[][3]) {
     for(int i = 0; i < NOMBRE_CASES; i++) {
