@@ -55,7 +55,7 @@ int main (void) {
         
         if(tour > 4) {
             if(vainqueur(tableau)) {
-                if(tour%2 == 0) {
+                if((tour + 1) %2 == 0) {
                     cout << "Les croix ont gagnes";
                     break;
                 }
