@@ -103,6 +103,7 @@ void afficherTableau(const int NOMBRE_CASES, char tab[][3]) {
             else {
                 cout << tab[i][j] << " | ";
             }   
+            //cout << tab[i][j] << " | ";
         };
     }
 }
